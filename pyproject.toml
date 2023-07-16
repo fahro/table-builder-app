@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dynamic-table"
+version = "1.0"
+description = ""
+authors = ["Fahrudin Halilovic"]
+readme = "README.md"
+packages = [{include = "dynamic_table"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.3"
+djangorestframework = "^3.14.0"
+psycopg2-binary = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
